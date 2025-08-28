@@ -31,5 +31,5 @@ important_columns = [
 filtered_df = players_df[important_columns].sort_values(by="total_points", ascending=False)
 
 # Save to Excel
-filtered_df.to_excel("fpl_players_25_26_GW1Stats.xlsx", index=False)
-print("Saved: fpl_players_25_26_GW1Stats.xlsx ✅")
+filtered_df.to_excel("fpl_players_25_26_GW2Stats.xlsx", index=False)
+print("Saved: fpl_players_25_26_GW2Stats.xlsx ✅")
